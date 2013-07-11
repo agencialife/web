@@ -1,0 +1,57 @@
+.clr {
+	clear:both;
+	height:0
+}
+.jScrollbar2 {
+	width:400px;
+	height:350px;
+	overflow:hidden;
+	position:relative;
+	padding:10px
+}
+#jScrollbar2 {
+	width:900px;
+	height:300px;
+	overflow:hidden;
+	position:relative;
+	padding:10px
+}
+	.jScrollbar2 .jScrollbar_mask {
+		width:350px;
+		position:relative;
+		top:0;
+		float:left;
+	}
+	#jScrollbar2 #jScrollbar_mask {
+		width:850px;
+		position:relative;
+		top:0;
+		float:left;
+	}
+		.jScrollbar2 .jScrollbar_mask p {
+			margin:0;
+			padding:0;
+			color:#FFF;
+			font-size:12px;
+		}
+	.jScrollbar2 .jScrollbar_draggable {
+		float:left;
+		width:12px;
+		height:350px;
+		overflow:hidden;
+		background:none;
+		background-color:#a6d9cd;
+		position:relative
+	}
+	.jScrollbar2 .jScrollbar_draggable a.draggable {
+		position:relative;
+		background-color:#009271;
+		display:block;
+		height:45px;
+		width:8px;
+		margin-left:2px;
+		cursor:pointer;
+		border-radius:5px;
+		moz-border-radius:5px;
+		webkit-border-radius:5px;
+	}

@@ -1,0 +1,237 @@
+@import url("reset.css");
+
+@font-face {
+	font-family: "EurostileLTStd";
+	src: url("../fontes/EurostileLTStd.eot"); /* para IE */
+	src: url("../fontes/EurostileLTStd.otf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "EurostileLTStd Bold";
+	src: url("../fontes/EurostileLTStd-Bold.eot"); /* para IE */
+	src: url("../fontes/EurostileLTStd-Bold.otf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{background-color:#009271;font-family: "EurostileLTStd";}
+.center{height:442px; left:50%; margin:-221px 0 0 -482px; position:absolute; top:50%; width:964px;}
+.floatLeft{float:left;}
+.floatRight{float:right;}
+
+
+#content_all{}
+
+.content {
+	width:964px;
+	height:422px;
+	margin:0 0 0 25px;
+}
+
+.content_left{width:442px;height:442px;margin-right:50px;}
+
+.content_right{width:470px;height:442px;}
+.content_right h1, .content h1{color:#fff;font-size:28px;line-height:37px;letter-spacing:7px;margin:20px 0;}
+.content_right ul{overflow:hidden;width:400px;margin-bottom:20px;}
+.content_right ul li{
+	float:left;
+	margin-right:10px;
+	width:190px;
+	height:50px;
+	background-color:#fff;
+	margin-bottom:10px;
+}
+.content_right ul li.amarelo{background-color:#ffcf06;margin-bottom:0;}
+.content_right ul li.laranja{background-color:#faa652;margin-bottom:0;}
+.content_right ul li a{
+	text-decoration:none;
+	color:#009271;
+	font-family:"EurostileLTStd Bold";
+	letter-spacing:3px;
+	width:94%;
+	display:block;
+	height:80%;
+	padding:10px 0 0 10px;
+}
+.content_right h2 {
+	color:#fff;
+	margin:20px 0 15px 0;
+}
+.content_right h3 {
+	color:#fff;
+	font-size:14px;
+	width:400px;
+	margin:-10px 0 0 0;
+}
+
+.wrap_conteudo .floatLeft{width:270px;height:158px;}
+.wrap_conteudo .floatLeft p{color:#fff;letter-spacing:1px;font-size:15px;}
+
+.wrap_redeSocial{width:207px;margin-top:20px;overflow:hidden;}
+.wrap_redeSocial .icone_redeSocial{width:23px;float:left;margin-right:13px;}
+.wrap_redeSocial .icone_redeSocial a{width:23px;height:23px;margin-bottom:5px; text-indent:-9999em;display:block;background-image:url("../img/icones_rede_social.png");background-position:0px 0px;}
+.wrap_redeSocial .icone_redeSocial a.twitter{background-position:0px -29px;}
+
+
+
+.wrap_redeSocial .texto_redeSocial{width:160px;float:left;}
+.wrap_redeSocial .texto_redeSocial p{color:#ffcf06; line-height: 17px; margin-top:-1px;}
+.wrap_conteudo .floatRight{margin-right:79px;}
+
+.content_center {
+	width:964px;
+	margin:0 auto;
+	height:442px;
+	background:url(../img/aviso.png) no-repeat;
+	background-position: center;
+}
+
+.menu_bto {
+	width:964px;
+	height:20px;
+	margin:40px 0 0 0;
+	float:left;
+	font-size:15px;
+	letter-spacing:1.3px;
+	text-align:center;
+}
+.menu_bto ul {
+	list-style:none;
+	margin:0 0 0 40px;
+}
+.menu_bto ul li a {
+	color:#fff;
+	text-decoration:none;
+	float:left;
+	margin:0 15px 0 15px;
+}
+.p_conteudo {
+	color:#fff;
+	text-align:justify;
+	width:90%;
+	margin:0 0 20px 0;
+	font-size:16px;
+	line-height:17px;
+}
+.jScrollbar_mask ul li {
+	width:330px;
+	height:60px;
+	margin:0 20px 40px 0;
+	padding:0;
+}
+#li_mask ul li {
+	background:#fff;
+	height:60px;
+	width:330px;
+	margin:0 20px 40px 0;
+}
+.jScrollbar_mask span {
+	font-size:16px;
+	color:#333;
+	margin:24px 25px 0 0;
+	float:right;
+}
+#jScrollbar_mask ul li {
+	width:850px;
+	height:60px;
+	margin:0 20px 40px 0;
+	padding:0;
+	color:#009271;
+}
+#jScrollbar_mask p {
+	font-size:16px;
+	color:#009271;
+	margin:0 25px 0 0;
+	float:right;
+}
+.img_list {
+	position:absolute;
+	width:115px;
+	height:77px;
+	margin:-8px 0 0 10px;
+	background:url('../img/img-acoesrealizadas.png') no-repeat;
+}
+.img_proxevento {
+	width:115px;
+	height:77px;
+	margin:0 15px 0 0;
+	background:url('../img/img-acoesrealizadas.png') no-repeat;
+	float:left;
+}
+.desc_evento {
+	width:400px;
+	height:57px;
+	background:#fff;
+	float:left;
+	margin:0 15px 0 0;
+	padding:10px;
+	color:#009271;
+}
+.desc_evento h3 {
+	margin:0 0 10px 0;
+}
+.local_evento {
+	width:120px;
+	height:47px;
+	background:#faa652;
+	float:left;
+	margin:0 15px 0 0;
+	color:#fff;
+	text-align:center;
+	padding:30px 0 0 0;
+}
+.data_evento {
+	width:120px;
+	height:47px;
+	background:#ffcf06;
+	float:left;
+	color:#fff;
+	text-align:center;
+	padding:30px 0 0 0;
+}
+.img_evento {
+	width:115px;
+	height:77px;
+	background:url('../img/img-acoesrealizadas.png') no-repeat;
+	float:left;
+	margin:10px;
+}
+.link_evento, .link_evento a {
+	color:#fff;
+	font-size:13px;
+	float:left;
+	text-decoration:none;
+	margin:10px 0 0 0;
+}
+/* FORMULARIO */
+.form {
+	width:400px;
+	height:auto;
+}
+.form input {
+	width:400px;
+	padding:10px 0 10px 20px;
+	height:35px;
+	color:#009271;
+	border:0;
+	margin:0 0 15px 0;
+	font-weight:500;
+	font-size:16px;
+}
+.form textarea {
+	width:400px;
+	padding:20px 0 20px 20px;
+	height:150px;
+	color:#009271;
+	border:0;
+	font-weight:300;
+	font-size:18px;
+}
+.form input[type=submit]{
+	width:auto;
+	background:none;
+	color:#fff;
+	float:right;
+}
